@@ -1,0 +1,48 @@
+[
+  {
+    "name": "business_profile",
+    "fields": [
+      {
+        "name": "Name",
+        "type": "text",
+        "description": "Name of the business",
+        "options": null
+      },
+      {
+        "name": "GoogleReviewLink",
+        "type": "text",
+        "description": "Link to the business Google reviews page",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "review",
+    "fields": [
+      {
+        "name": "AuthorName",
+        "type": "text",
+        "description": "Name of the person leaving the review",
+        "options": null
+      },
+      {
+        "name": "Rating",
+        "type": "number",
+        "description": "Star rating out of 5",
+        "options": null
+      },
+      {
+        "name": "Feedback",
+        "type": "text",
+        "description": "The written feedback or testimonial",
+        "options": null
+      },
+      {
+        "name": "Source",
+        "type": "text",
+        "description": "Where the review was captured from",
+        "options": null
+      }
+    ]
+  }
+]
